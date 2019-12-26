@@ -1,0 +1,18 @@
+[2017-05-25 00:05:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '306154025801' ) LIMIT 1  
+[2017-05-25 00:05:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '306154025801' )
+[2017-05-25 00:05:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '30615402581' )
+[2017-05-25 00:25:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '306154025801' ) LIMIT 1  
+[2017-05-25 00:25:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '306154025801' )
+[2017-05-25 00:25:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '30615402581' )

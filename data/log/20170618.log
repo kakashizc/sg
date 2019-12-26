@@ -1,0 +1,48 @@
+[2017-06-18 10:27:56] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '241595810705' ) LIMIT 1  
+[2017-06-18 10:27:56] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '241595810705' )
+[2017-06-18 10:27:56] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '24159581075' )
+[2017-06-18 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '201560326905' ) LIMIT 1  
+[2017-06-18 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '201560326905' )
+[2017-06-18 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '20156032695' )
+[2017-06-18 11:45:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '201560326901' ) LIMIT 1  
+[2017-06-18 11:45:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20156032691' ) LIMIT 1  
+[2017-06-18 11:45:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20156032691' ) LIMIT 1  
+[2017-06-18 11:45:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('20156032691','1','1497758122')
+[2017-06-18 11:47:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '201560326901' ) LIMIT 1  
+[2017-06-18 11:47:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20156032691' ) LIMIT 1  
+[2017-06-18 11:47:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20156032691' ) LIMIT 1  
+[2017-06-18 11:47:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('20156032691','1','1497758260')
+[2017-06-18 11:51:02] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=33232%40qq.com&user_name=33232%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = '33232@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2017-06-18 11:54:53] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=21111%40qq.com&user_name=21111%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = '21111@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  

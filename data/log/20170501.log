@@ -1,0 +1,36 @@
+[2017-05-01 22:34:39] /index.php?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw.user_users' doesn't exist
+SELECT id,username FROM `user_users` ORDER BY id DESC LIMIT 0,100  
+[2017-05-01 22:34:43] /index.php?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw.user_users' doesn't exist
+SELECT id,username FROM `user_users` ORDER BY id DESC LIMIT 0,100  
+[2017-05-01 22:34:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '207236502601' ) LIMIT 1  
+[2017-05-01 22:34:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_users' doesn't exist
+SELECT * FROM `user_users` WHERE ( username = 'admin' ) AND ( password = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1  
+[2017-05-01 22:34:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20723650261' ) LIMIT 1  
+[2017-05-01 22:34:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '20723650261' ) LIMIT 1  
+[2017-05-01 22:34:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('20723650261','1','1493649895')
+[2017-05-01 22:35:48] /index.php?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw.user_users' doesn't exist
+SELECT id,username FROM `user_users` ORDER BY id DESC LIMIT 0,100  
+[2017-05-01 22:36:06] /index.php?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw.user_users' doesn't exist
+SELECT id,username FROM `user_users` ORDER BY id DESC LIMIT 0,100  
+[2017-05-01 23:21:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '207236502601' ) LIMIT 1  
+[2017-05-01 23:21:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '207236502601' )
+[2017-05-01 23:21:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '20723650261' )

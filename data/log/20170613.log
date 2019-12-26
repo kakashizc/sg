@@ -1,0 +1,84 @@
+[2017-06-13 08:33:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-06-13 08:33:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-06-13 08:33:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-06-13 14:57:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-06-13 14:57:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-06-13 14:57:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-06-13 17:29:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '366118162901' ) LIMIT 1  
+[2017-06-13 17:29:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_users' doesn't exist
+SELECT * FROM `user_users` WHERE ( username = 'admin' ) AND ( password = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1  
+[2017-06-13 17:29:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '36611816291' ) LIMIT 1  
+[2017-06-13 17:29:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '36611816291' ) LIMIT 1  
+[2017-06-13 17:29:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('36611816291','1','1497346793')
+[2017-06-13 17:46:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '366118162905' ) LIMIT 1  
+[2017-06-13 17:46:20] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '366118162905' )
+[2017-06-13 17:46:20] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '36611816295' )
+[2017-06-13 17:46:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '366118162901' ) LIMIT 1  
+[2017-06-13 17:46:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '36611816291' ) LIMIT 1  
+[2017-06-13 17:46:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '36611816291' ) LIMIT 1  
+[2017-06-13 17:46:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('36611816291','1','1497347801')
+[2017-06-13 17:47:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '366118162901' ) LIMIT 1  
+[2017-06-13 17:47:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '366118162901' )
+[2017-06-13 17:47:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '36611816291' )
+[2017-06-13 17:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '241595810701' ) LIMIT 1  
+[2017-06-13 17:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '241595810701' )
+[2017-06-13 17:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '24159581071' )
+[2017-06-13 17:48:11] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and date='2017-06-13' LIMIT 1' at line 1
+SELECT * FROM `user_reg_day` WHERE user_id= and date='2017-06-13' LIMIT 1  
+[2017-06-13 17:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '366118162901' ) LIMIT 1  
+[2017-06-13 17:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '366118162901' )
+[2017-06-13 17:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw13.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '36611816291' )

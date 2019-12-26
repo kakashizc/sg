@@ -1,0 +1,39 @@
+[2016-12-10 15:32:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-12-10 15:32:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-12-10 15:32:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-12-10 15:41:15] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-12-10 15:41:15] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-12-10 15:41:15] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000005' ) LIMIT 1  
+[2016-12-10 15:41:15] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('00000000005','1','1481356275')
+[2016-12-10 15:41:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-12-10 15:41:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-12-10 15:41:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-12-10 16:32:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-12-10 16:32:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-12-10 16:32:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )

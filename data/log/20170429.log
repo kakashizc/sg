@@ -1,0 +1,438 @@
+[2017-04-29 08:46:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 08:46:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 08:46:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 08:47:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:47:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:47:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:47:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427459')
+[2017-04-29 08:47:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:47:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:47:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:47:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427469')
+[2017-04-29 08:48:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:48:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:48:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:48:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427519')
+[2017-04-29 08:48:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 08:48:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 08:48:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 08:49:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:49:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:49:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:49:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427536')
+[2017-04-29 08:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 08:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 08:49:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 08:50:02] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:50:02] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:50:02] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:50:02] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427583')
+[2017-04-29 08:52:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:52:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:52:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '21307064335' ) LIMIT 1  
+[2017-04-29 08:52:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064335','1','1493427763')
+[2017-04-29 08:53:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 08:53:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-04-29 08:53:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-04-29 09:50:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 09:50:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 09:50:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 09:50:29] /?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw01.user_member' doesn't exist
+SELECT * FROM `user_member` ORDER BY id asc LIMIT 1  
+[2017-04-29 09:50:37] /?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw01.user_member' doesn't exist
+SELECT * FROM `user_member` ORDER BY id asc LIMIT 1  
+[2017-04-29 09:50:46] /?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw01.user_member' doesn't exist
+SELECT * FROM `user_member` ORDER BY id asc LIMIT 30  
+[2017-04-29 09:51:01] /?act=member01&op=home ( act=member01&op=home ) 
+ERR: Db Error: Table 'posw01.user_member' doesn't exist
+SELECT * FROM `user_member` ORDER BY id asc LIMIT 30  
+[2017-04-29 10:07:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 10:07:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 10:07:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 10:10:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 10:10:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 10:10:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 10:51:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 10:51:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-04-29 10:51:51] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-04-29 10:57:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 10:57:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 10:57:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 17:19:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 17:19:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 17:19:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw01.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 17:33:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 17:33:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-04-29 17:33:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-04-29 19:51:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 19:51:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 19:51:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7307 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7340 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7349 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7345 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7347 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7363 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:51:14] /index.php?act=net&op=network&id=7307 ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=7365 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7345 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7345','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7340 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7340','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7307 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7307','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7301 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7301','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7261 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7261','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7260 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7260','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7257 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7257','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7254 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7254','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7036 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7036','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7029 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7029','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7023 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7023','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7020 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7020','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7014 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7014','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 7011 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','7011','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 777 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','777','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 773 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','773','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 33 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','33','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 30 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','30','0','1')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 29 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','29','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 11 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','11','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 10 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','10','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 8 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','8','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 2 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','2','1','0')
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE date='2017-04-29' and user_id = 1 LIMIT 1  
+[2017-04-29 19:53:07] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+INSERT  INTO `user_reg_day` (date,user_id,l_num,r_num) VALUES ('2017-04-29','1','1','0')
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=2 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=8 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=9 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=10 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=15 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=11 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=12 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=16 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=17 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=13 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=399 and date='2017-04-29' LIMIT 1  
+[2017-04-29 19:54:41] /index.php?act=net&op=network ( act=net&op=network ) 
+ERR: Db Error: Table 'posw03.user_reg_day' doesn't exist
+SELECT * FROM `user_reg_day` WHERE user_id=400 and date='2017-04-29' LIMIT 1  
+[2017-04-29 20:02:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 20:02:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 20:02:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 20:02:33] /index.php?act=team&op=confirm_add&id=7 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'l_num_today' in 'field list'
+UPDATE `user_net` SET all_l_count='1500',l_count='1500',l_num='1',l_num_today='1' WHERE ( uid = '4' )
+[2017-04-29 20:02:33] /index.php?act=team&op=confirm_add&id=7 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'l_num_today' in 'field list'
+UPDATE `user_net` SET all_l_count='1500',l_count='1500',l_num='2',l_num_today='1' WHERE ( uid = '2' )
+[2017-04-29 20:02:33] /index.php?act=team&op=confirm_add&id=7 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'l_num_today' in 'field list'
+UPDATE `user_net` SET all_l_count='1500',l_count='1500',l_num='4',l_num_today='1' WHERE ( uid = '1' )
+[2017-04-29 20:04:31] /index.php?act=team&op=confirm_add&id=8 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'r_num_today' in 'field list'
+UPDATE `user_net` SET all_r_count='1500',r_count='1500',r_num='1',r_num_today='1' WHERE ( uid = '4' )
+[2017-04-29 20:04:31] /index.php?act=team&op=confirm_add&id=8 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'l_num_today' in 'field list'
+UPDATE `user_net` SET all_l_count='1500',l_count='1500',l_num='2',l_num_today='1' WHERE ( uid = '2' )
+[2017-04-29 20:04:31] /index.php?act=team&op=confirm_add&id=8 ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'l_num_today' in 'field list'
+UPDATE `user_net` SET all_l_count='1500',l_count='1500',l_num='4',l_num_today='1' WHERE ( uid = '1' )
+[2017-04-29 20:10:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-04-29 20:10:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-04-29 20:10:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-04-29 20:39:28] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-04-29 20:39:28] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-04-29 20:39:28] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw03.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )

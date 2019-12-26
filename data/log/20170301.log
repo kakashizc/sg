@@ -1,0 +1,108 @@
+[2017-03-01 00:59:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '306104787801' ) LIMIT 1  
+[2017-03-01 00:59:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '306104787801' )
+[2017-03-01 00:59:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '30610478781' )
+[2017-03-01 01:00:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '236436304201' ) LIMIT 1  
+[2017-03-01 01:00:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '236436304201' )
+[2017-03-01 01:00:24] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '23643630421' )
+[2017-03-01 01:01:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '236436304201' ) LIMIT 1  
+[2017-03-01 01:01:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '236436304201' )
+[2017-03-01 01:01:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '23643630421' )
+[2017-03-01 01:17:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '236436304205' ) LIMIT 1  
+[2017-03-01 01:17:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '236436304205' )
+[2017-03-01 01:17:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '23643630425' )
+[2017-03-01 01:26:20] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '306104787805' ) LIMIT 1  
+[2017-03-01 01:26:20] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '306104787805' )
+[2017-03-01 01:26:20] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '30610478785' )
+[2017-03-01 11:01:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '368327398001' ) LIMIT 1  
+[2017-03-01 11:01:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '368327398001' )
+[2017-03-01 11:01:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '36832739801' )
+[2017-03-01 14:20:21] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '236436304201' ) LIMIT 1  
+[2017-03-01 14:20:21] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '236436304201' )
+[2017-03-01 14:20:21] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '23643630421' )
+[2017-03-01 22:05:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '236436304201' ) LIMIT 1  
+[2017-03-01 22:05:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '236436304201' )
+[2017-03-01 22:05:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '23643630421' )
+[2017-03-01 23:17:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '462997786001' ) LIMIT 1  
+[2017-03-01 23:17:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '462997786001' )
+[2017-03-01 23:17:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46299778601' )
+[2017-03-01 23:19:16] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '462997786005' ) LIMIT 1  
+[2017-03-01 23:19:16] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '462997786005' )
+[2017-03-01 23:19:16] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46299778605' )
+[2017-03-01 23:40:20] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '462997786001' ) LIMIT 1  
+[2017-03-01 23:40:20] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '462997786001' )
+[2017-03-01 23:40:20] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46299778601' )
+[2017-03-01 23:47:38] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '462997786005' ) LIMIT 1  
+[2017-03-01 23:47:38] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '462997786005' )
+[2017-03-01 23:47:38] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46299778605' )

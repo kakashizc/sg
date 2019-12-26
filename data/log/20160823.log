@@ -1,0 +1,159 @@
+[2016-08-23 08:17:00] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-08-23 08:17:00] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-08-23 08:17:00] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-08-23 08:21:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-23 08:21:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-23 08:21:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-23 09:33:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-23 09:33:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-23 09:33:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-23 10:37:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-23 10:37:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-23 10:37:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-23 10:38:49] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Unknown column 'record.jh_time' in 'field list'
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:40:58] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:00] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:01] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:02] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:03] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:06] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:22] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:23] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT ' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_net` AS `net` ON users.id=parent.uid LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:40] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Unknown column 'record.jh_time' in 'field list'
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:41:41] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Unknown column 'record.jh_time' in 'field list'
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(record.jh_time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:42:35] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON net.uid=users.id WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:42:54] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:42:55] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:42:55] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:43:14] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:43:48] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON  LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:22] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:38] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:39] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:40] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:40] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:44:41] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=net.uid LEFT JOIN `user_net` AS `net` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:10] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:12] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` LEFT JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:39] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:41] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:42] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:45] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:47:46] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:48:15] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 10:48:16] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000' at line 1
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_record` AS `record` ON  WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:01:27] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:01:28] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:01:31] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:02:01] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.uid  LEFT JOIN `user_net` AS `net` ON  users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:02:50] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON  users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:02:51] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON  users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:03:04] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:03:05] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Column 'status' in where clause is ambiguous
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( status = '1' ) GROUP BY dayval LIMIT 1000  
+[2016-08-23 11:03:48] /index.php?act=team&op=sctj ( act=team&op=sctj ) 
+ERR: Db Error: Unknown column 'parent.udi' in 'on clause'
+SELECT  COUNT(*) as allnum  ,DAY(FROM_UNIXTIME(users.time)) as dayval  FROM `user_users` AS `users` INNER JOIN `user_parent` AS `parent` ON users.id=parent.udi LEFT JOIN `user_net` AS `net` ON users.id=net.uid WHERE ( users.status = '1' ) GROUP BY dayval LIMIT 1000  

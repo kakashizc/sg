@@ -1,0 +1,57 @@
+[2017-02-26 12:38:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-26 12:38:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-26 12:38:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-26 12:38:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-02-26 12:38:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-02-26 12:38:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-02-26 13:45:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-26 13:45:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-26 13:45:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-26 15:23:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-26 15:23:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-26 15:23:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-26 16:24:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-26 16:24:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-26 16:24:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-26 17:14:28] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'b11' in 'field list'
+UPDATE `user_bonuslog` SET b11=b11+570,b0=b0+570 WHERE ( uid = '1' ) AND ( bdate = '2017-02-26' )
+[2017-02-26 17:15:00] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'b11' in 'field list'
+UPDATE `user_bonuslog` SET b11=b11+570,b0=b0+570 WHERE ( uid = '2' ) AND ( bdate = '2017-02-26' )
+[2017-02-26 17:15:26] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'b11' in 'field list'
+UPDATE `user_bonuslog` SET b11=b11+570,b0=b0+570 WHERE ( uid = '1' ) AND ( bdate = '2017-02-26' )
+[2017-02-26 17:15:53] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'b11' in 'field list'
+UPDATE `user_bonuslog` SET b11=b11+570,b0=b0+570 WHERE ( uid = '3' ) AND ( bdate = '2017-02-26' )

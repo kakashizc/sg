@@ -1,0 +1,45 @@
+[2017-01-11 19:26:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-01-11 19:26:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2017-01-11 19:26:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2017-01-11 19:26:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('00000000001','1','1484134619')
+[2017-01-11 19:27:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-01-11 19:27:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2017-01-11 19:27:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2017-01-11 19:27:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2017-01-11 19:27:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2017-01-11 19:27:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfnbase.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2017-01-11 19:35:34] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'recount' in 'field list'
+UPDATE `user_users` SET recount=recount + 1 WHERE ( id = '1' )
+[2017-01-11 19:35:55] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'recount' in 'field list'
+UPDATE `user_users` SET recount=recount + 1 WHERE ( id = '1' )
+[2017-01-11 19:36:29] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'recount' in 'field list'
+UPDATE `user_users` SET recount=recount + 1 WHERE ( id = '1' )
+[2017-01-11 19:36:49] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'recount' in 'field list'
+UPDATE `user_users` SET recount=recount + 1 WHERE ( id = '1' )
+[2017-01-11 19:36:59] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: Unknown column 'recount' in 'field list'
+UPDATE `user_users` SET recount=recount + 1 WHERE ( id = '1' )

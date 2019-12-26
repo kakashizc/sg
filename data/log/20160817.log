@@ -1,0 +1,66 @@
+[2016-08-17 06:20:54] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-08-17 06:20:55] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-08-17 06:20:55] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-08-17 06:41:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-17 06:41:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-17 06:41:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-17 06:42:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-17 06:42:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-17 06:42:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-17 06:45:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-17 06:45:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-17 06:45:50] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-17 07:33:18] /admin/modules/member/index.php?act=member&op=member_del&id=13633 ( act=member&op=member_del ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+DELETE  FROM `user_lays` WHERE ( lay = '0' ) AND ( uid IN (Array) )
+[2016-08-17 08:55:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-17 08:55:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-17 08:55:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-17 08:56:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-08-17 08:56:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-08-17 08:56:27] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-08-17 16:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-17 16:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-17 16:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )

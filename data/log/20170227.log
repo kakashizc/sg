@@ -1,0 +1,115 @@
+[2017-02-27 09:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-27 09:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-27 09:48:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-27 09:48:37] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-02-27 09:48:37] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-02-27 09:48:37] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-02-27 10:25:50] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=cs1%40qq.com&user_name=cs1%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Champ 'member_email' inconnu dans where clause
+SELECT * FROM `user_users` WHERE ( member_email = 'cs1@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2017-02-27 10:41:36] /admin/modules/system/index.php?act=wipe_data ( act=wipe_data&op=index ) 
+ERR: Db Error: Champ 'biz' inconnu dans field list
+INSERT INTO `user_users` (`id`, `username`, `password`, `status`, `time`, `jy_pwd`, `login_id`, `group_id`, `level_id`, `sn`, `num`, `login_status`, `state`, `login_time`, `overdue_time`, `dian_balance`, `ji_balance`, `bao_balance`, `zhang_balance`, `sheng_balance`, `xu_balance`, `yun_balance`, `zhu_balance`, `name`, `problem`, `answer`, `idcard`, `address`, `tel`, `qq`, `email`, `sex`, `ssid`, `ssuid`, `ssname`, `rid`, `rname`, `lsk`, `pid`, `paynetfee`,`biz`) VALUES ('1', 'admin', '96e79218965eb72c92a549dd5a330112', '1', '0', 'e3ceb5881a0a1fdaad01296d7554868d', '1', '3', '1', NULL, '6000', '1', 'low', '0', NULL, '500', '0.00', '50000.00', '0.00', '0', '0', '0', '0', 'admin', NULL, NULL, NULL, '测试地址', '15971871234', NULL, 'admin@888.com', '1', '0', '0', NULL, '0', NULL, '6800.00', '0', '0','1')
+
+[2017-02-27 10:56:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-27 10:56:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-27 10:56:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-27 11:17:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-02-27 11:17:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2017-02-27 11:17:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2017-02-27 15:03:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-27 15:03:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-27 15:03:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-27 15:03:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-02-27 15:03:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-02-27 15:03:31] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-02-27 15:04:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-02-27 15:04:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2017-02-27 15:04:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2017-02-27 15:38:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-02-27 15:38:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2017-02-27 15:38:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'qygl.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2017-02-27 19:03:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-27 19:03:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-27 19:03:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-27 19:04:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-02-27 19:04:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-02-27 19:04:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-02-27 20:05:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-02-27 20:05:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-02-27 20:05:09] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-02-27 20:05:53] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2017-02-27 20:05:53] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2017-02-27 20:05:53] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'qygl.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )

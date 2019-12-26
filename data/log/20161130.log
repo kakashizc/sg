@@ -1,0 +1,777 @@
+[2016-11-30 04:25:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 04:25:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525801' )
+[2016-11-30 04:25:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852581' )
+[2016-11-30 04:33:22] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 04:33:22] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525805' )
+[2016-11-30 04:33:22] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852585' )
+[2016-11-30 04:43:01] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 04:43:01] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 04:43:01] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 04:43:01] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852585','1','1480452781')
+[2016-11-30 04:43:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 04:43:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525805' )
+[2016-11-30 04:43:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852585' )
+[2016-11-30 05:35:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 05:35:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525801' )
+[2016-11-30 05:35:42] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852581' )
+[2016-11-30 06:40:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 06:40:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525801' )
+[2016-11-30 06:40:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852581' )
+[2016-11-30 06:41:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 06:41:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525801' )
+[2016-11-30 06:41:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852581' )
+[2016-11-30 06:54:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 06:54:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:54:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:54:25] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852585','1','1480460665')
+[2016-11-30 06:55:23] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 06:55:23] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:55:23] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:55:23] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852585','1','1480460723')
+[2016-11-30 06:55:42] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 06:55:42] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:55:42] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:55:42] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852585','1','1480460742')
+[2016-11-30 06:56:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 06:56:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:56:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852585' ) LIMIT 1  
+[2016-11-30 06:56:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852585','1','1480460772')
+[2016-11-30 06:56:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525805' ) LIMIT 1  
+[2016-11-30 06:56:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648525805' )
+[2016-11-30 06:56:41] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464852585' )
+[2016-11-30 06:57:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 06:57:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:57:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:57:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480460859')
+[2016-11-30 06:58:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 06:58:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:58:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:58:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480460880')
+[2016-11-30 06:58:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 06:58:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:58:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 06:58:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480460927')
+[2016-11-30 06:59:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:00:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:00:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:00:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:00:54] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461054')
+[2016-11-30 07:01:52] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=awtf%40163.com&user_name=awtf%40163.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = 'awtf@163.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2016-11-30 07:03:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:03:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:03:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:03:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461207')
+[2016-11-30 07:04:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:04:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:04:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:04:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461299')
+[2016-11-30 07:05:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:05:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:05:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:05:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461311')
+[2016-11-30 07:07:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 07:07:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 07:07:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 07:07:31] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('00000000001','1','1480461450')
+[2016-11-30 07:08:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 07:08:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 07:08:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 07:08:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('00000000001','1','1480461491')
+[2016-11-30 07:09:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:09:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:09:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:09:30] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461569')
+[2016-11-30 07:10:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648525801' ) LIMIT 1  
+[2016-11-30 07:10:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:10:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464852581' ) LIMIT 1  
+[2016-11-30 07:10:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464852581','1','1480461601')
+[2016-11-30 08:01:37] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516701' ) LIMIT 1  
+[2016-11-30 08:01:37] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:01:37] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:01:37] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('30561751671','1','1480464697')
+[2016-11-30 08:01:52] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516701' ) LIMIT 1  
+[2016-11-30 08:01:52] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:01:52] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:01:52] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('30561751671','1','1480464712')
+[2016-11-30 08:02:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516701' ) LIMIT 1  
+[2016-11-30 08:02:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:02:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:02:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('30561751671','1','1480464730')
+[2016-11-30 08:02:49] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516705' ) LIMIT 1  
+[2016-11-30 08:02:49] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '305617516705' )
+[2016-11-30 08:02:49] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '30561751675' )
+[2016-11-30 08:04:07] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=awtf%40163.com&user_name=awtf%40163.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = 'awtf@163.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2016-11-30 08:05:16] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=awtf%40163.com&user_name=awtf%40163.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = 'awtf@163.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2016-11-30 08:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516701' ) LIMIT 1  
+[2016-11-30 08:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:09:16] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('30561751671','1','1480465156')
+[2016-11-30 08:09:32] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '305617516701' ) LIMIT 1  
+[2016-11-30 08:09:32] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:09:32] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '30561751671' ) LIMIT 1  
+[2016-11-30 08:09:32] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('30561751671','1','1480465172')
+[2016-11-30 11:35:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646905' ) LIMIT 1  
+[2016-11-30 11:35:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646905' )
+[2016-11-30 11:35:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364695' )
+[2016-11-30 11:37:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 11:37:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:37:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:37:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480477632')
+[2016-11-30 11:37:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 11:37:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:37:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:37:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480477649')
+[2016-11-30 11:39:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 11:39:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:39:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:39:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480477745')
+[2016-11-30 11:39:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 11:39:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:39:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:39:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480477765')
+[2016-11-30 11:40:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 11:40:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:40:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 11:40:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480477803')
+[2016-11-30 11:40:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646901' ) LIMIT 1  
+[2016-11-30 11:40:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '18794364691' ) LIMIT 1  
+[2016-11-30 11:40:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '18794364691' ) LIMIT 1  
+[2016-11-30 11:40:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('18794364691','1','1480477813')
+[2016-11-30 11:40:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646905' ) LIMIT 1  
+[2016-11-30 11:40:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646905' )
+[2016-11-30 11:40:40] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364695' )
+[2016-11-30 11:41:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646901' ) LIMIT 1  
+[2016-11-30 11:41:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '18794364691' ) LIMIT 1  
+[2016-11-30 11:41:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '18794364691' ) LIMIT 1  
+[2016-11-30 11:41:13] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('18794364691','1','1480477873')
+[2016-11-30 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646905' ) LIMIT 1  
+[2016-11-30 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646905' )
+[2016-11-30 11:41:43] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364695' )
+[2016-11-30 11:46:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646901' ) LIMIT 1  
+[2016-11-30 11:46:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646901' )
+[2016-11-30 11:46:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364691' )
+[2016-11-30 11:47:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '354638323601' ) LIMIT 1  
+[2016-11-30 11:47:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '354638323601' )
+[2016-11-30 11:47:22] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '35463832361' )
+[2016-11-30 11:51:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646901' ) LIMIT 1  
+[2016-11-30 11:51:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646901' )
+[2016-11-30 11:51:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364691' )
+[2016-11-30 11:52:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '187943646905' ) LIMIT 1  
+[2016-11-30 11:52:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '187943646905' )
+[2016-11-30 11:52:10] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '18794364695' )
+[2016-11-30 12:51:44] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 12:51:44] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:51:44] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:51:44] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480482104')
+[2016-11-30 12:52:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 12:52:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:52:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:52:04] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480482124')
+[2016-11-30 12:52:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 12:52:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:52:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 12:52:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480482153')
+[2016-11-30 12:53:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557005' ) LIMIT 1  
+[2016-11-30 12:53:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855705' ) LIMIT 1  
+[2016-11-30 12:53:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855705' ) LIMIT 1  
+[2016-11-30 12:53:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855705','1','1480482188')
+[2016-11-30 12:53:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557005' ) LIMIT 1  
+[2016-11-30 12:53:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648557005' )
+[2016-11-30 12:53:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464855705' )
+[2016-11-30 14:21:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 14:21:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:21:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:21:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480487516')
+[2016-11-30 14:22:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 14:22:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:22:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:22:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480487568')
+[2016-11-30 14:23:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 14:23:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:23:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:23:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480487603')
+[2016-11-30 14:23:52] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557005' ) LIMIT 1  
+[2016-11-30 14:23:52] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648557005' )
+[2016-11-30 14:23:52] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464855705' )
+[2016-11-30 14:32:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 14:32:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 14:32:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '00000000001' ) LIMIT 1  
+[2016-11-30 14:32:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('00000000001','1','1480488130')
+[2016-11-30 14:34:51] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 14:34:51] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:34:51] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:34:51] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480488291')
+[2016-11-30 14:34:58] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 14:34:58] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:34:58] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:34:58] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480488298')
+[2016-11-30 14:35:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 14:35:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:35:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:35:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480488355')
+[2016-11-30 14:38:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 14:38:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:38:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '37464855701' ) LIMIT 1  
+[2016-11-30 14:38:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('37464855701','1','1480488481')
+[2016-11-30 14:49:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 14:49:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:49:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10269741941' ) LIMIT 1  
+[2016-11-30 14:49:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10269741941','1','1480489146')
+[2016-11-30 14:50:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 14:50:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '102697419401' )
+[2016-11-30 14:50:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10269741941' )
+[2016-11-30 15:15:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '102697419401' ) LIMIT 1  
+[2016-11-30 15:15:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '102697419401' )
+[2016-11-30 15:15:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10269741941' )
+[2016-11-30 15:27:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648557001' ) LIMIT 1  
+[2016-11-30 15:27:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648557001' )
+[2016-11-30 15:27:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464855701' )
+[2016-11-30 19:12:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '374648535501' ) LIMIT 1  
+[2016-11-30 19:12:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '374648535501' )
+[2016-11-30 19:12:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37464853551' )
+[2016-11-30 21:41:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 21:41:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-30 21:41:25] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-30 21:42:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-11-30 21:42:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-11-30 21:42:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-11-30 22:50:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 22:50:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-30 22:50:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-30 22:52:14] /index.php?act=goods&op=userCartBuy ( act=goods&op=usercartbuy ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0='status = 1' WHERE uid=1' at line 1
+UPDATE `user_goods_order` SET 0='status = 1' WHERE uid=1
+[2016-11-30 22:56:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-11-30 22:56:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-11-30 22:56:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-11-30 23:06:01] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:06:54] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:09:46] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:10:05] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:10:51] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:11:52] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:13:25] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:14:04] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:14:06] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:15:02] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:16:06] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:17:45] /admin/modules/system/index.php?act=goods&op=get_goods_class_xml ( act=goods&op=get_goods_class_xml ) 
+ERR: Db Error: Unknown column 'gid' in 'order clause'
+SELECT * FROM `user_goods_type` as `goods_type`   order by gid asc,id desc limit 0,15
+[2016-11-30 23:50:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-30 23:50:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-30 23:50:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )

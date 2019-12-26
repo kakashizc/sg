@@ -1,0 +1,24 @@
+[2016-12-05 20:09:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '190050432101' ) LIMIT 1  
+[2016-12-05 20:09:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '19005043211' ) LIMIT 1  
+[2016-12-05 20:09:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '19005043211' ) LIMIT 1  
+[2016-12-05 20:09:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('19005043211','1','1480940359')
+[2016-12-05 20:09:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '190050432101' ) LIMIT 1  
+[2016-12-05 20:09:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '19005043211' ) LIMIT 1  
+[2016-12-05 20:09:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '19005043211' ) LIMIT 1  
+[2016-12-05 20:09:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'osman3308.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('19005043211','1','1480940380')

@@ -1,0 +1,204 @@
+[2017-03-04 00:04:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:04:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '103417882601' )
+[2017-03-04 00:04:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10341788261' )
+[2017-03-04 00:06:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:06:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10341788261' ) LIMIT 1  
+[2017-03-04 00:06:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10341788261' ) LIMIT 1  
+[2017-03-04 00:06:40] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10341788261','1','1488557799')
+[2017-03-04 00:07:07] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:07:07] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10341788261' ) LIMIT 1  
+[2017-03-04 00:07:07] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '10341788261' ) LIMIT 1  
+[2017-03-04 00:07:07] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('10341788261','1','1488557826')
+[2017-03-04 00:07:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:07:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '103417882601' )
+[2017-03-04 00:07:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10341788261' )
+[2017-03-04 00:10:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:10:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '103417882601' )
+[2017-03-04 00:10:02] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10341788261' )
+[2017-03-04 00:11:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882601' ) LIMIT 1  
+[2017-03-04 00:11:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '103417882601' )
+[2017-03-04 00:11:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10341788261' )
+[2017-03-04 00:38:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '103417882605' ) LIMIT 1  
+[2017-03-04 00:38:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '103417882605' )
+[2017-03-04 00:38:50] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '10341788265' )
+[2017-03-04 13:30:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '372756750201' ) LIMIT 1  
+[2017-03-04 13:30:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '372756750201' )
+[2017-03-04 13:30:27] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37275675021' )
+[2017-03-04 13:36:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '372756750205' ) LIMIT 1  
+[2017-03-04 13:36:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '372756750205' )
+[2017-03-04 13:36:44] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37275675025' )
+[2017-03-04 13:43:34] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '372756750201' ) LIMIT 1  
+[2017-03-04 13:43:34] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '372756750201' )
+[2017-03-04 13:43:34] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37275675021' )
+[2017-03-04 22:08:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '287181966101' ) LIMIT 1  
+[2017-03-04 22:08:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '287181966101' )
+[2017-03-04 22:08:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '28718196611' )
+[2017-03-04 22:09:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '287181966101' ) LIMIT 1  
+[2017-03-04 22:09:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '287181966101' )
+[2017-03-04 22:09:03] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '28718196611' )
+[2017-03-04 22:27:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '372756750201' ) LIMIT 1  
+[2017-03-04 22:27:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '372756750201' )
+[2017-03-04 22:27:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '37275675021' )
+[2017-03-04 22:28:39] /index.php?act=user&op=GetName&username=111111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '111111' ) LIMIT 1  
+[2017-03-04 22:28:43] /index.php?act=user&op=GetName&username=111111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '111111' ) LIMIT 1  
+[2017-03-04 22:29:25] /index.php?act=user&op=GetName&username=111111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '111111' ) LIMIT 1  
+[2017-03-04 22:29:52] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:29:55] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:29:58] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:30:18] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:30:23] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:30:25] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:30:41] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:31:01] /index.php?act=user&op=GetName&username=11111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:31:44] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = '11111' ) LIMIT 1  
+[2017-03-04 22:32:28] /index.php?act=user&op=GetName&username=11111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE ( username = NULL ) LIMIT 1  
+[2017-03-04 22:33:35] /index.php?act=user&op=GetName&username=11111 ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE username = "" LIMIT 1  
+[2017-03-04 22:33:48] /index.php?act=user&op=GetName ( act=user&op=getname ) 
+ERR: Db Error: Table 'a0302174411.user_member' doesn't exist
+SELECT * FROM `user_member` WHERE username = "11111" LIMIT 1  
+[2017-03-04 22:41:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '287181966105' ) LIMIT 1  
+[2017-03-04 22:41:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '287181966105' )
+[2017-03-04 22:41:19] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '28718196615' )
+[2017-03-04 23:05:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '463280945001' ) LIMIT 1  
+[2017-03-04 23:05:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '463280945001' )
+[2017-03-04 23:05:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46328094501' )
+[2017-03-04 23:07:24] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '463280945005' ) LIMIT 1  
+[2017-03-04 23:07:24] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '463280945005' )
+[2017-03-04 23:07:24] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46328094505' )
+[2017-03-04 23:15:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '463280945005' ) LIMIT 1  
+[2017-03-04 23:15:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '463280945005' )
+[2017-03-04 23:15:18] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'a0302174411.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '46328094505' )

@@ -1,0 +1,33 @@
+安装说明:
+服务器环境 PHP5.3 + Mysql  数据库
+
+修改文件要用PHP编辑器修改
+
+1.新建数据库
+
+2.修改数据库链接参数，修改好后，导入数据库sql文件  
+数据库链接文件 data\config\config.ini.php
+修改下面子段
+$config['db']['1']['dbhost'] = 'localhost';
+$config['db']['1']['dbport'] = '3306';
+$config['db']['1']['dbuser'] = 'a0303094705';  数据库用户名
+$config['db']['1']['dbpwd'] = '046065d2';      数据库密码
+$config['db']['1']['dbname'] = 'a0303094705';  数据库名
+
+========================================================
+3.修改 data\config\config.ini.php  第21行 
+这个网址http://posw.1017.top/admin 改成你的网址
+$config['mobile_modules_url'] = 'http://posw.1017.top/admin/modules/mobile;
+
+4.修改文件 control\net.php 第30行
+这个网址http://posw.1017.top/ 改成你的网址
+
+$url = "http://http://posw.1017.top/ys/lay.php?uid=" . $this->userid . "&r=" . time();
+
+============================================
+后台地址   
+你的网址 http://www.xxxxxx.com/admin
+账号 admin  密码 1
+前台 http://www.xxxxxx.com
+账号 a001 密码1 二级密码 1
+联系QQ：940304595

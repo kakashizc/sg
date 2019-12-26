@@ -1,0 +1,27 @@
+[2017-06-12 10:12:08] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: Unknown column 'rid' in 'field list'
+SELECT uid,pid,rid FROM `user_net` ORDER BY id asc LIMIT 0,2  
+[2017-06-12 10:12:35] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: Unknown column 'rid' in 'field list'
+SELECT uid,pid,rid FROM `user_net` ORDER BY id asc LIMIT 0,2  
+[2017-06-12 10:12:45] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: Unknown column 'rid' in 'field list'
+SELECT uid,pid,rid FROM `user_net` ORDER BY id asc LIMIT 0,2  
+[2017-06-12 10:13:07] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: Unknown column 'rid' in 'field list'
+SELECT uid,pid,rid FROM `user_net` ORDER BY id asc LIMIT 0,2  
+[2017-06-12 10:13:52] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT * FROM `user_net` WHERE id= LIMIT 1  
+[2017-06-12 10:13:52] /index.php?act=member01&op=home002 ( act=member01&op=home002 ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT * FROM `user_net` WHERE id= LIMIT 1  
+[2017-06-12 10:29:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-06-12 10:29:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-06-12 10:29:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'posw12.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )

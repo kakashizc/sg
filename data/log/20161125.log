@@ -1,0 +1,204 @@
+[2016-11-25 00:29:21] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-11-25 00:29:21] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-11-25 00:29:21] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-11-25 01:27:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 01:27:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 01:27:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 01:30:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 01:30:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 01:30:10] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 01:30:14] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT sum(b3) as sum FROM `user_bonuslog` WHERE uid =  LIMIT 1  
+[2016-11-25 01:31:08] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT sum(b3) as sum FROM `user_bonuslog` WHERE uid =  LIMIT 1  
+[2016-11-25 01:31:57] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT sum(b3) as sum FROM `user_bonuslog` WHERE uid =  LIMIT 1  
+[2016-11-25 01:33:19] /index.php?act=team&op=confirm_add ( act=team&op=confirm_add ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT sum(b3) as sum FROM `user_bonuslog` WHERE uid =  LIMIT 1  
+[2016-11-25 10:20:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-11-25 10:20:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '21307064331' ) LIMIT 1  
+[2016-11-25 10:20:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '21307064331' ) LIMIT 1  
+[2016-11-25 10:20:41] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+INSERT  INTO `user_lock` (pid,pvalue,expiretime) VALUES ('21307064331','1','1480041041')
+[2016-11-25 10:20:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-11-25 10:20:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-11-25 10:20:55] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-11-25 10:21:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-11-25 10:21:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-11-25 10:21:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-11-25 10:26:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 10:26:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 10:26:23] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 13:35:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-11-25 13:35:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-11-25 13:35:18] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-11-25 13:42:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-11-25 13:42:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-11-25 13:42:14] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-11-25 14:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-11-25 14:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-11-25 14:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-11-25 14:44:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 14:44:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 14:44:56] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 14:47:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-11-25 14:47:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-11-25 14:47:03] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'kk2.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-11-25 16:13:21] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Champ 'bdateasc' inconnu dans order clause
+SELECT * FROM `user_bonuslog` as `bonuslog`   order by bdateasc limit 0,15
+[2016-11-25 16:13:24] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Champ 'usernameasc' inconnu dans order clause
+SELECT * FROM `user_bonuslog` as `bonuslog`   order by usernameasc limit 0,15
+[2016-11-25 16:13:40] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Champ 'uidasc' inconnu dans order clause
+SELECT * FROM `user_bonuslog` as `bonuslog`   order by uidasc limit 0,15
+[2016-11-25 16:20:04] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin%' à la ligne 1
+SELECT count(*) as count FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin%
+[2016-11-25 16:20:04] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin% order by uid asc limit 0,15' à la ligne 1
+SELECT * FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin% order by uid asc limit 0,15
+[2016-11-25 16:20:09] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin%' à la ligne 1
+SELECT count(*) as count FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin%
+[2016-11-25 16:20:09] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin% order by uid asc limit 0,15' à la ligne 1
+SELECT * FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin% order by uid asc limit 0,15
+[2016-11-25 16:20:10] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin%' à la ligne 1
+SELECT count(*) as count FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin%
+[2016-11-25 16:20:10] /admin/modules/fin/index.php?act=bao&op=get_xml ( act=bao&op=get_xml ) 
+ERR: Db Error: Erreur de syntaxe près de '%admin% order by uid asc limit 0,15' à la ligne 1
+SELECT * FROM `user_bonuslog` as `bonuslog`  WHERE username like %admin% order by uid asc limit 0,15
+[2016-11-25 20:40:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 20:40:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 20:40:05] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 20:40:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-11-25 20:40:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-11-25 20:40:59] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-11-25 21:42:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 21:42:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 21:42:28] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 21:44:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 21:44:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 21:44:14] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 22:44:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 22:44:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 22:44:33] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-11-25 22:55:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-11-25 22:55:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-11-25 22:55:01] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk2.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )

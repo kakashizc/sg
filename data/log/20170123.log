@@ -1,0 +1,54 @@
+[2017-01-23 13:48:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-01-23 13:48:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-01-23 13:48:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-01-23 15:45:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-01-23 15:45:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-01-23 15:45:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-01-23 15:53:54] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2017-01-23 15:53:54] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2017-01-23 15:53:54] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2017-01-23 15:54:45] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-01-23 15:54:45] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-01-23 15:54:45] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2017-01-23 16:11:33] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=cs1%40qq.com&user_name=cs1%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Champ 'member_email' inconnu dans where clause
+SELECT * FROM `user_users` WHERE ( member_email = 'cs1@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2017-01-23 16:12:12] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=cs1%40qq.com&user_name=cs1%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Champ 'member_email' inconnu dans where clause
+SELECT * FROM `user_users` WHERE ( member_email = 'cs1@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2017-01-23 16:12:32] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=cs1%40qq.com&user_name=cs1%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Champ 'member_email' inconnu dans where clause
+SELECT * FROM `user_users` WHERE ( member_email = 'cs1@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  
+[2017-01-23 17:19:35] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2017-01-23 17:19:35] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2017-01-23 17:19:35] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: La table 'sfnbase.user_lock' n'existe pas
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )

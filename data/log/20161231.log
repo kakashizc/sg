@@ -1,0 +1,21 @@
+[2016-12-31 22:15:11] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000001' ) LIMIT 1  
+[2016-12-31 22:15:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000001' )
+[2016-12-31 22:15:12] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000001' )
+[2016-12-31 22:15:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-12-31 22:15:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-12-31 22:15:36] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sfn4.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-12-31 22:26:37] /admin/modules/member/index.php?act=member&op=ajax&branch=check_email&member_email=cs8%40qq.com&user_name=cs8%40qq.com&member_id= ( act=member&op=ajax ) 
+ERR: Db Error: Unknown column 'member_email' in 'where clause'
+SELECT * FROM `user_users` WHERE ( member_email = 'cs8@qq.com' ) AND ( member_id <> '0' ) LIMIT 1  

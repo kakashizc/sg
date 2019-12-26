@@ -1,0 +1,189 @@
+[2016-08-26 06:23:29] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-08-26 06:23:30] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-08-26 06:23:30] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-08-26 06:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 06:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 06:35:39] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 07:01:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '000000000005' ) LIMIT 1  
+[2016-08-26 07:01:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '000000000005' )
+[2016-08-26 07:01:35] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '00000000005' )
+[2016-08-26 07:02:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 07:02:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 07:02:19] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 08:36:49] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 08:36:49] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 08:36:49] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 13:38:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 13:38:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 13:38:47] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 13:45:05] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2016-08-26 13:45:05] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2016-08-26 13:45:05] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2016-08-26 14:40:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 14:40:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 14:40:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 14:40:00] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'n.id' in 'where clause'
+SELECT net.uid,users.login_time FROM `user_net` AS `net` INNER JOIN `user_users` AS `users` ON users.id=net.uid WHERE ( n.id = '13579' ) LIMIT 1  
+[2016-08-26 14:40:14] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'n.id' in 'where clause'
+SELECT net.uid,users.login_time FROM `user_net` AS `net` INNER JOIN `user_users` AS `users` ON users.id=net.uid WHERE ( n.id = '13579' ) LIMIT 1  
+[2016-08-26 14:40:14] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'n.id' in 'where clause'
+SELECT net.uid,users.login_time FROM `user_net` AS `net` INNER JOIN `user_users` AS `users` ON users.id=net.uid WHERE ( n.id = '7747' ) LIMIT 1  
+[2016-08-26 14:40:35] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'n.id' in 'where clause'
+SELECT net.uid,users.login_time FROM `user_net` AS `net` INNER JOIN `user_users` AS `users` ON users.id=net.uid WHERE ( n.id = '13579' ) LIMIT 1  
+[2016-08-26 14:40:35] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'n.id' in 'where clause'
+SELECT net.uid,users.login_time FROM `user_net` AS `net` INNER JOIN `user_users` AS `users` ON users.id=net.uid WHERE ( n.id = '7747' ) LIMIT 1  
+[2016-08-26 14:54:12] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:54:14] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:54:14] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:54:15] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:54:15] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:54:26] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,$uid,$l_id,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:57:07] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  by lay desc  LIMIT 1  
+[2016-08-26 14:57:14] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  order by lay desc  LIMIT 1  
+[2016-08-26 14:57:15] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  order by lay desc  LIMIT 1  
+[2016-08-26 14:57:16] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  order by lay desc  LIMIT 1  
+[2016-08-26 14:57:16] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  order by lay desc  LIMIT 1  
+[2016-08-26 14:57:16] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by lay desc  LIMIT 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay,parent.parent FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY  order by lay desc  LIMIT 1  
+[2016-08-26 15:21:42] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'lay' in 'order clause'
+SELECT count(*) as c FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT 1  
+[2016-08-26 15:23:16] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'lay' in 'where clause'
+SELECT count(*) as c,length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) AND (  (lay BETWEEN '18' AND '999999' ) ) ORDER BY   lay desc  LIMIT 1  
+[2016-08-26 15:23:42] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'lay' in 'where clause'
+SELECT count(*) as c,length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) AND (  (lay BETWEEN '15' AND '999999' ) ) ORDER BY   lay desc  LIMIT 1  
+[2016-08-26 15:23:58] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'lay' in 'where clause'
+SELECT count(*) as c,length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) AND (  (lay BETWEEN '15' AND '999999' ) ) ORDER BY   lay desc  LIMIT 1  
+[2016-08-26 15:28:41] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u left join parent as p on p.uid=u.id' doesn't exist
+SELECT * FROM `user_users as u left join parent as p on p.uid=u.id` as `users as u left join parent as p on p.uid=u.id`  WHERE   p.parent like '%,7386,13633,%' and u.status=1 and u.login_time<1472140800 and length(p.parent)-length(replace(p.parent,',',''))-1>12+5 limit 1
+[2016-08-26 15:33:51] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u left join parent as p on u.id=p.uid' doesn't exist
+SELECT * FROM `user_users as u left join parent as p on u.id=p.uid` as `users as u left join parent as p on u.id=p.uid`  WHERE   parent.parent like '%,7386,13633,%' and users.status=1 and users.login_time<1472140800 and length(parent.parent)-length(replace(parent.parent,',',''))-1>12+5 limit 1
+[2016-08-26 15:34:08] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u left join parent as p on u.id=p.uid' doesn't exist
+SELECT * FROM `user_users as u left join parent as p on u.id=p.uid` as `users as u left join parent as p on u.id=p.uid`   limit 1
+[2016-08-26 15:34:12] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u left join parent as p on u.id=p.uid' doesn't exist
+SELECT * FROM `user_users as u left join parent as p on u.id=p.uid` as `users as u left join parent as p on u.id=p.uid`   limit 1
+[2016-08-26 15:34:15] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u left join parent as p on u.id=p.uid' doesn't exist
+SELECT * FROM `user_users as u left join parent as p on u.id=p.uid` as `users as u left join parent as p on u.id=p.uid`   limit 1
+[2016-08-26 15:34:58] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Table 'kk.user_users as u' doesn't exist
+SELECT count(*) as c FROM `user_users as u` as `users as u`   limit 1
+[2016-08-26 15:42:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 15:42:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 15:42:00] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2016-08-26 15:42:34] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: Unknown column 'lay' in 'where clause'
+SELECT count(*) as c,length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) AND (  (lay BETWEEN '15' AND '999999' ) ) ORDER BY   lay desc  LIMIT 1  
+[2016-08-26 15:43:03] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 1
+SELECT count(*) as c,length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT  limit 1  
+[2016-08-26 15:43:20] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT  limit 1  
+[2016-08-26 15:43:44] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT  limit 1  
+[2016-08-26 15:46:00] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT  limit 1  
+[2016-08-26 15:46:05] /index.php?act=fin&op=check_jiang ( act=fin&op=check_jiang ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 1
+SELECT length(parent.parent)-length(replace(parent.parent,',',''))-1 as lay FROM `user_parent` AS `parent` INNER JOIN `user_users` AS `users` ON users.id=parent.uid WHERE ( users.status = '1' ) AND ( parent.parent LIKE '%,7386,13633,%' ) AND ( users.login_time < '1472140799' ) ORDER BY   lay desc  LIMIT  limit 1  
+[2016-08-26 16:43:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2016-08-26 16:43:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2016-08-26 16:43:48] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'kk.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
