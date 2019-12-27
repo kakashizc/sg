@@ -21,7 +21,17 @@
             </div>
             <div class="portlet-body form">
                 <form role="form" class="form_info">
-                    <input type="hidden"  name='tjr' value="<?php echo $output['pid']  ?>">
+                    <!--推荐人,二维码中带的-->
+                    <input type="hidden"  name='tjr' value="<?php echo $output['tjr']  ?>">
+
+                    <!--报单中心名字-->
+                    <input type="hidden" class="form-control" id="ssname" name="ssname"
+                           value="admin">
+
+                    <!--会员级别-->
+                    <input type="hidden" class="form-control" id="group_id" name="group_id"
+                           value="1">
+
                     <div class="form-body">
                         <!-- <div class="form-group form-md-floating-label">
                             <input type="text" class="form-control" id="hybh" name="hybh" value="">
@@ -85,6 +95,7 @@
                             </div>
                         </div>
                         <br>
+
                         <div class="form-group form-md-floating-label">
                             <label for="scwz"><span style="color: red">*</span>位置</label>
                             <select class="form-control edited" id="scwz" name="scwz">
@@ -134,17 +145,24 @@
                                 </div>
                             </div>
 
-
                             <div class="form-group form-md-floating-label">
-                                <label for="dz">地址</label>
-                                <input type="text" class="form-control" id="dz" name="dz" value="">
+                                <label for="sfzh">身份证号</label>
+                                <input type="text" class="form-control" id="sfzh" name="sfzh" value="">
+
                             </div>
 
                             <div class="form-group form-md-floating-label">
-                                <label for="tel">手机</label>
-                                <input type="text" class="form-control" id="tel" name="tel" value="">
+                                <label for="sfzh">身份证姓名</label>
+                                <input type="text" class="form-control" id="sfzname" name="sfzname" value="">
 
                             </div>
+
+                            <div class="form-group form-md-floating-label">
+                                <label for="sfzh">身份证有效期</label>
+                                <input type="text" class="form-control" id="sfztime" name="sfztime" value="">
+
+                            </div>
+
 
                     </div>
                     <div class="form-actions noborder">
@@ -169,10 +187,13 @@
             contentType:false,
             success:function (e) {
                 var a = (JSON.parse(e));
+
                 if(a.code == 0){
-                    swal('上传成功');
+                    swal('上传成功','图片合格');
                     $('#front_img').attr('src',a.msg)
                     $('#front').val(a.msg)
+                    $('#sfzh').val(a.result.公民身份号码.words)
+                    $('#sfzname').val(a.result.姓名.words)
                 }else{
                     swal(a.msg,'请重新上传')
                 }
@@ -193,10 +214,13 @@
             contentType:false,
             success:function (e) {
                 var a = (JSON.parse(e));
+                console.log(a)
                 if(a.code == 0){
-                    swal('上传成功');
+                    swal('上传成功','图片合格');
                     $('#back_img').attr('src',a.msg)
                     $('#back').val(a.msg)
+                    var time =  a.result.签发日期.words+'-'+a.result.失效日期.words;
+                    $('#sfztime').val(time)
                 }else{
                     swal(a.msg,'请重新上传')
                 }
@@ -205,24 +229,15 @@
     });
 
     $('.tj').click(function (event) {
-        /*       var hybh= $('#hybh').val();*/
         var yhm = $('#yhm').val();
         var dlmm = $('#dlmm').val();
         var qrdlmm = $('#qrdlmm').val();
         var jymm = $('#jymm').val();
         var qrjymm = $('#qrjymm').val();
-        var hyjb = $('#hyjb').val();
-        var mbwt = $('#mbwt').val();
-        //var mbda = $('#mbda').val();
         var tjr = $('#tjr').val();
-        var jdr = $('#jdr').val();
+        // var jdr = $('#jdr').val();
         var scwz = $('#scwz').val();
-        /*var yhkh = $('#yhkh').val();*/
         var sfzh = $('#sfzh').val();
-        /*var khh = $('#khh').val();*/
-        var dz = $('#dz').val();
-        var tel = $('#tel').val();
-        var qq = $('#qq').val();
         var email = $('#email').val();
         var name = $('#name').val();
         var ssname = $('#ssname').val();
@@ -236,10 +251,10 @@
             alert('提示\n\n请输入有效的E_mail！');
             return false;
         }
-        if (jdr == '') {
-            sweetAlert("错误!", "请填写接点人编号", "error");
-            return false;
-        }
+        // if (jdr == '') {
+        //     sweetAlert("错误!", "请填写接点人编号", "error");
+        //     return false;
+        // }
         if (tjr == '') {
             sweetAlert("错误!", "请填写推荐人编号", "error");
             return false;

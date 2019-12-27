@@ -6,19 +6,38 @@
 <td>右</td>
 </tr>
 <tr>
-<td>0</td>
+<td>1</td>
 <td>总</td>
-<td>3</td>
+<td>9</td>
 </tr>
 <tr>
-<td>0</td>
-<td>增</td>
 <td>1</td>
+<td>增</td>
+<td>7</td>
 </tr>
 </table>
 <ul class="ceng_1">
 <li id="2">
-<strong class="red"><a href="index.php?act=net&amp;op=network&amp;id=2">用户名:yj024772<br>编号:2<br>0星<br>姓名:测试</a></strong>17-07-21 11:02:38<table class="member-form">
+<strong class=""><a href="index.php?act=net&amp;op=network&amp;id=2">用户名:yj024772<br>编号:2<br>0星<br>姓名:测试</a></strong>19-12-27 16:40:57<table class="member-form">
+<tr>
+<td>左</td>
+<td> </td>
+<td>右</td>
+</tr>
+<tr>
+<td>0</td>
+<td>总</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>增</td>
+<td>0</td>
+</tr>
+</table>
+<ul class="ceng_2">
+<li id="8">
+<strong class="red"><a href="index.php?act=net&amp;op=network&amp;id=8">用户名:zhou2<br>编号:8<br>0星<br>姓名:水电费</a></strong>19-12-27 16:42:53<table class="member-form">
 <tr>
 <td>左</td>
 <td> </td>
@@ -36,8 +55,32 @@
 </tr>
 </table>
 <ul class="ceng_2"><li>
-<span class="reg"><strong><a class="add" data-id="2">注册</a></strong></span><p><a class="add" data-id="2">未加入</a></p>
+<span class="reg"><strong><a class="add" data-id="8">注册</a></strong></span><p><a class="add" data-id="8">未加入</a></p>
 </li></ul>
+</li>
+<li id="9">
+<strong class="red"><a href="index.php?act=net&amp;op=network&amp;id=9">用户名:laozhou3<br>编号:9<br>0星<br>姓名:第三方</a></strong>19-12-27 16:45:49<table class="member-form">
+<tr>
+<td>左</td>
+<td> </td>
+<td>右</td>
+</tr>
+<tr>
+<td>0</td>
+<td>总</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>增</td>
+<td>0</td>
+</tr>
+</table>
+<ul class="ceng_2"><li>
+<span class="reg"><strong><a class="add" data-id="9">注册</a></strong></span><p><a class="add" data-id="9">未加入</a></p>
+</li></ul>
+</li>
+</ul>
 </li>
 <li id="3">
 <strong class=""><a href="index.php?act=net&amp;op=network&amp;id=3">用户名:yj104950<br>编号:3<br>0星<br>姓名:测试</a></strong>17-08-02 16:38:05<table class="member-form">
@@ -47,12 +90,12 @@
 <td>右</td>
 </tr>
 <tr>
-<td>1</td>
+<td>7</td>
 <td>总</td>
 <td>1</td>
 </tr>
 <tr>
-<td>0</td>
+<td>6</td>
 <td>增</td>
 <td>1</td>
 </tr>
@@ -66,22 +109,43 @@
 <td>右</td>
 </tr>
 <tr>
-<td>0</td>
+<td>6</td>
 <td>总</td>
 <td>0</td>
 </tr>
 <tr>
-<td>0</td>
+<td>6</td>
 <td>增</td>
 <td>0</td>
 </tr>
 </table>
-<ul class="ceng_2"><li>
+<ul class="ceng_2">
+<li id="6">
+<strong class=""><a href="index.php?act=net&amp;op=network&amp;id=6">用户名:laozhou<br>编号:6<br>0星<br>姓名:地方</a></strong>19-12-27 15:43:33<table class="member-form">
+<tr>
+<td>左</td>
+<td> </td>
+<td>右</td>
+</tr>
+<tr>
+<td>1</td>
+<td>总</td>
+<td>4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>增</td>
+<td>4</td>
+</tr>
+</table>
+</li>
+<li>
 <span class="reg"><strong><a class="add" data-id="4">注册</a></strong></span><p><a class="add" data-id="4">未加入</a></p>
-</li></ul>
+</li>
+</ul>
 </li>
 <li id="5">
-<strong class=""><a href="index.php?act=net&amp;op=network&amp;id=5">用户名:yj704927<br>编号:5<br>0星<br>姓名:测试</a></strong>19-12-26 16:21:02<table class="member-form">
+<strong class=""><a href="index.php?act=net&amp;op=network&amp;id=5">用户名:yj704927<br>编号:5<br>0星<br>姓名:测试</a></strong>19-12-27 16:42:08<table class="member-form">
 <tr>
 <td>左</td>
 <td> </td>

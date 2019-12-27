@@ -138,8 +138,8 @@ class teamControl extends BaseMemberControl
     //新用户注册数据
 
     public function do_registerOp()
-
     {
+
         $yhm = trim($_REQUEST['yhm']);
         $dlmm = trim($_REQUEST['dlmm']);
         $jymm = trim($_REQUEST['jymm']);

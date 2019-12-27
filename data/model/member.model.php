@@ -985,7 +985,8 @@ class memberModel extends Model
 
         $netInfo = $net->getNetByID($net_id);
         $res = array('status' => 0);
-        $recordInfo = $record->getRecordInfo(array('new_id' => $net_id));
+//        $recordInfo = $record->getRecordInfo(array('new_id' => $net_id)); 以前是用 new_id 查, 激活的时候会报错, 我们该用net_id 查吧
+        $recordInfo = $record->getRecordInfo(array('id' => $net_id));
         if (!$recordInfo) {
             $res['msg'] = '该用户不存在!';
             return $res;

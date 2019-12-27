@@ -44,7 +44,7 @@ class registControl extends BaseMemberControl{
         //根据id,找到对应的username,
         $username = $this->users_model->getMemberInfo(array('id'=>$_GET['pid']),'username');
         if($username){
-            Tpl::output('pid',$username['username']);
+            Tpl::output('tjr',$_GET['pid']);
             Tpl::showpage('team.regist');
         }else{
             $this->error('用户不存在');
@@ -74,9 +74,10 @@ class registControl extends BaseMemberControl{
             $local_path = BASE_PATH.DS.$name;
             $res = $this->check_indentity($local_path,$side);
 
-            if($res == 'ok'){
+            if($res['msg'] == 'ok'){
                 $arr['code'] = 0;
                 $arr['msg'] = "http://".$_SERVER['SERVER_NAME'].DS.$name;
+                $arr['result'] = $res['words_result']['words_result'];
                 echo json_encode($arr);
             }else{
                 $arr['code'] = 1;
@@ -113,9 +114,11 @@ class registControl extends BaseMemberControl{
 
         // 带参数调用身份证识别
         $res = $client->idcard($image, $idCardSide, $options);
-        $msg = '';
+        $msg = array();
         if( $res['image_status'] == 'normal' ){
-            return $msg = 'ok';
+            $msg['msg'] = 'ok';
+            $msg['words_result'] = $res;
+            return $msg;
         }else{
             switch ( $res['image_status'] ){
                 case 'reversed_side':
@@ -138,18 +141,61 @@ class registControl extends BaseMemberControl{
         }
     }
 
+    /*
+     * 根据推荐人id, 和需要进入左右区的值 , 查找最后一个接点人的姓名
+     * */
+    public function jdrOp($scwz=2,$tjr=1)
+    {
+        $user = Model('users');
+        //根据推荐人id, 找所有的下级接点人id, 然后找到最后一级的结点人id
+        $last_id = $this->last_jd_id($scwz,$tjr);
+        //var_dump($res);
+        //根据左右区, 查找对应区的末接点人
+        $last = $user->where(array('id'=>$last_id))->find();
+         return $last['username'];
+    }
+
+    //根据推荐人id, 找所有的下级接点人id, 然后找到最后一级的结点人id
+    private function last_jd_id($scwz,$tjr)
+    {
+        if($scwz == 2){//如果市场位置是2,也就是右边, 那么查找一次右边, 然后仍然查找最左侧的下级(就是放到推荐人的第一个右侧人的左侧)
+            $parent = Model('net')->where(array('pid'=>$tjr,'area'=>$scwz))->find();//先找到传入的推荐人的id,然后找他的紧接着下一级的接点人,然后根据这个接点人id,继续往下找
+            if(!$parent){
+                return $tjr;
+            }
+            return $this->last_jd_id(1,$parent['uid']);
+        }else{
+            $parent = Model('net')->where(array('pid'=>$tjr,'area'=>$scwz))->find();//先找到传入的推荐人的id,然后找他的紧接着下一级的接点人,然后根据这个接点人id,继续往下找
+            if(!$parent){
+                return $tjr;
+            }
+            return $this->last_jd_id($scwz,$parent['uid']);
+        }
+
+    }
+
+    public function jdr($scwz=2,$tjr=1)
+    {
+        $user = Model('users');
+        //根据推荐人id, 找所有的下级接点人id, 然后找到最后一级的结点人id
+        $last_id = $this->last_jd_id($scwz,$tjr);
+        //var_dump($res);
+        //根据左右区, 查找对应区的末接点人
+        $last = $user->where(array('id'=>$last_id))->find();
+        return $last['username'];
+    }
 
     public function do_registerOp()
     {
-        $yhm = trim($_REQUEST['yhm']);
-        $dlmm = trim($_REQUEST['dlmm']);
-        $jymm = trim($_REQUEST['jymm']);
-        $group_id = $_REQUEST['group_id'];
-        $email = $_REQUEST['email'];
-        $tjr = trim($_REQUEST['tjr']);
-        $jdr = trim($_REQUEST['jdr']);
-        $scwz = $_REQUEST['scwz'];
+        $yhm = trim($_REQUEST['yhm']);//
+        $dlmm = trim($_REQUEST['dlmm']);//
+        $jymm = trim($_REQUEST['jymm']);//
+        $group_id = $_REQUEST['group_id'];//
+        $email = $_REQUEST['email'];//
+        $tjr = trim($_REQUEST['tjr']);//
         $sfzh = $_REQUEST['sfzh'];
+        $sfzname = $_REQUEST['sfzname'];
+        $sfztime = $_REQUEST['sfztime'];
         $dz = $_REQUEST['dz'];
         $tel = $_REQUEST['tel'];
         $qq = $_REQUEST['qq'];
@@ -157,13 +203,16 @@ class registControl extends BaseMemberControl{
         $sex = $_REQUEST['sex'];
         $ssname = $_REQUEST['ssname'];
         $users = Model("member");
-
+        $scwz = $_REQUEST['scwz'];// 接点位置, 1-左, 2-右
+        $scwz = 2;
+        //这里的$_REQUEST['jdr'] , 其实就是二维码中的推荐人id
+        $jdr = $this->jdr($scwz,$_REQUEST['tjr']);//根据推荐人 和 市场位置左右, 去寻找上级接点人的名字
+        $scwz = 1;
         /**
          * 验证
          */
         $obj_validate = new Validate();
         $obj_validate->validateparam = array(
-
             array("input" => $_REQUEST["name"], "require" => "true", 'validator' => 'chinese', "message" => '真实姓名必须为中文')
         );
         $error = $obj_validate->validate();
@@ -197,12 +246,12 @@ class registControl extends BaseMemberControl{
             'login_status' => 0,
             'login_time' => time(),
             'name' => $name,
-            //'problem' => $mbwt,
-            //'answer' => $mbda,
             'idcard' => $sfzh,
-            'address' => $dz,
-            'tel' => $tel,
-            'qq' => $qq,
+            'sfzname' => $sfzname,
+            'sfztime' => $sfztime,
+            'address' => $dz?$dz:'',
+            'tel' => $tel?$tel:'23123123123',
+            'qq' => $qq?$qq:'123123123',
             'email' => $email,
             'sex' => $sex,
             'rid' => $tjr_info['id'],
@@ -212,7 +261,7 @@ class registControl extends BaseMemberControl{
             'ssname' => $ssname,
             'group_id' => $group_id,
             'rname' => $tjr_info['username'],
-            'lsk' => $lsk
+            'lsk' => $lsk,
         );
 
         $res = $users->addMember($data);
@@ -220,6 +269,9 @@ class registControl extends BaseMemberControl{
             $check = $users->register(array('uid' => $res, 'pid' => $jdr_uid, 'tjr' => $tjr_info, 'scwz' => $scwz, 'userid' => $this->userid, 'lsk' => $lsk));
         }
         if ($check) {
+            setBnCookie('is_login', '1');
+            setBnCookie('uid', $res);
+            setBnCookie('username', $yhm);
             $this->success('注册成功');
         } else {
             $this->error('注册用户失败，请刷新后重试');
@@ -242,7 +294,7 @@ class registControl extends BaseMemberControl{
     private function select_tjr($tjr)
     {
         $net = Model('net');
-        $re = $net->select_tjr($tjr);
+        $re = $net->select_tjr_byid($tjr);
         if ($re) {
             return $re;
         } else {

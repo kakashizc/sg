@@ -505,6 +505,7 @@ class memberControl extends SystemControl
         return $array;
     }
 
+    //激活用户
     public function activationOp()
     {
         $uid = intval($_GET['id']);

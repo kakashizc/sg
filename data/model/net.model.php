@@ -377,31 +377,32 @@ class NetModel extends Model
 
 
     //查询推荐人是否存在
-
     public function select_tjr($username)
-
     {
-
         $users = Model('member');
-
         $map = array(
-
             'username' => $username,
-
         );
-
         $re = $users->getMemberInfo($map);
-
         if ($re) {
-
             return $re;
-
         } else {
-
             return false;
-
         }
+    }
 
+    public function select_tjr_byid($tjr)
+    {
+        $users = Model('member');
+        $map = array(
+            'id' => $tjr,
+        );
+        $re = $users->getMemberInfo($map);
+        if ($re) {
+            return $re;
+        } else {
+            return false;
+        }
     }
 
 
