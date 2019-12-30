@@ -61,19 +61,28 @@
                             <input type="password" class="form-control" id="qrjymm" name="qrjymm" value="222222">
 
                         </div>
-                        <div class="form-group form-md-floating-label">
-                            <label for="group_id">会员级别</label>
-                            <select class="form-control edited" id="group_id" name="group_id">
-                                <?php foreach ($output['groupList'] as $item) { ?>
-                                    <option value="<?php echo $item['group_id'] ?>">
-                                        <?php echo $item['name'] ?>--(￥<?php echo $item['lsk'] ?>)
-                                    </option>
-                                <?php } ?>
-                            </select>
-                        </div>
+<!--                        <div class="form-group form-md-floating-label">-->
+<!--                            <label for="group_id">会员级别</label>-->
+<!--                            <select class="form-control edited" id="group_id" name="group_id">-->
+<!--                                --><?php //foreach ($output['groupList'] as $item) { ?>
+<!--                                    <option value="--><?php //echo $item['group_id'] ?><!--">-->
+<!--                                        --><?php //echo $item['name'] ?><!----(￥--><?php //echo $item['lsk'] ?><!--)-->
+<!--                                    </option>-->
+<!--                                --><?php //} ?>
+<!--                            </select>-->
+<!--                        </div>-->
+
+                        <!--会员级别-->
+                        <input type="hidden" class="form-control" id="group_id" name="group_id"
+                               value="1">
+                        <!--报单中心名字-->
+                        <input type="hidden" class="form-control" id="ssname" name="ssname"
+                               value="admin">
+
+
                         <div class="form-group form-md-floating-label">
                             <label for="name"><span style="color: red">*</span>真实姓名:</label>
-                            <input type="text" class="form-control" id="name" name="name" value="测试">
+                            <input type="text" class="form-control" id="name" name="name" value="真实姓名">
                         </div>
                         <div class="form-group form-md-floating-label">
                             <label for="sex">性别:</label>
@@ -84,28 +93,7 @@
                                 <input type="radio" name="sex" value="0"> 女
                             </label>
                         </div>
-                        <!--<div class="form-group form-md-floating-label">
-                            <label for="mbwt">密保问题</label>
-                            <select class="form-control edited" id="mbwt" name="mbwt">
-                                <option value="您高中班主任的名字是?">您高中班主任的名字是?</option>
-                                <option value="您的小学校名是?">您的小学校名是?</option>
-                                <option value="您母亲的生日是?">您母亲的生日是?</option>
-                                <option value="您配偶的姓名是?">您配偶的姓名是?</option>
-                                <option value="您的学号（或工号）是?">您的学号（或工号）是?</option>
-                                <option value="您的出生地是?">您的出生地是?</option>
-                                <option value="您小学班主任的名字是?">您小学班主任的名字是?</option>
-                                <option value="您父亲的姓名是?">您父亲的姓名是?</option>
-                                <option value="您配偶的生日是?">您配偶的生日是?</option>
-                                <option value="您初中班主任的名字是?">您初中班主任的名字是?</option>
-                                <option value="您母亲的姓名是?">您母亲的姓名是?</option>
-                                <option value="您父亲的生日是?">您父亲的生日是?</option>
-                            </select>
-                        </div>-->
-                        <!--<div class="form-group form-md-floating-label">
-                            <label for="mbda"><span style="color: red">*</span>密保答案</label>
-                            <input type="text" class="form-control" id="mbda" name="mbda" value="222222">
 
-                        </div>-->
                         <div class="portlet-title">
                             <div class="caption font-green">
                                 <i class=" icon-globe font-green"></i>
@@ -143,49 +131,65 @@
                                 </option>
                             </select>
                         </div>
+
+
+
                         <div class="portlet-title">
                             <div class="caption font-green">
                                 <i class="icon-credit-card"></i>
-                                <span class="caption-subject bold uppercase">个人基本信息(选填)</span>
+                                <span class="caption-subject bold uppercase">个人基本信息</span>
                             </div>
                         </div>
                         <br>
-                        <?php if ($output['setting']['idcard']) { ?>
-                            <div class="form-group form-md-floating-label">
-                                <label for="sfzh">身份证号</label>
-                                <input type="text" class="form-control" id="sfzh" name="sfzh" value="">
+                        <div class="form-group form-md-floating-label">
+                            <label for="sfzh">身份证正面</label>
+                            <input type="file" class="form-control" id="fronts" name="indentity_front">
+                            <input type="hidden" id="front" name="front" value="">
+                        </div>
+                        <div class="form-group">
 
+                            <label class="col-sm-2 control-label">
+                            </label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    <img src="" alt="" id="front_img" style="width: 100px;height: 100px">
+                                </p>
                             </div>
-                            <?php
-                        }
-                        if ($output['setting']['addr']) {
-                            ?>
-                            <div class="form-group form-md-floating-label">
-                                <label for="dz">地址</label>
-                                <input type="text" class="form-control" id="dz" name="dz" value="">
+                        </div>
 
-                            </div>
-                            <?php
-                        }
-                        if ($output['setting']['tel']) {
-                            ?>
-                            <div class="form-group form-md-floating-label">
-                                <label for="tel">手机</label>
-                                <input type="text" class="form-control" id="tel" name="tel" value="">
+                        <div class="form-group form-md-floating-label">
+                            <label for="sfzh">身份证反面</label>
+                            <input type="file" class="form-control" id="backs" name="indentity_back">
+                            <input type="hidden" id="back" name="back" value="">
+                        </div>
+                        <div class="form-group">
 
+                            <label class="col-sm-2 control-label">
+                            </label>
+                            <div class="col-sm-10">
+                                <p class="form-control-static">
+                                    <img src="" alt="" id="back_img"  style="width: 100px;height: 100px">
+                                </p>
                             </div>
-                            <?php
-                        }
-                        if ($output['setting']['qq']) {
-                            ?>
-                            <div class="form-group form-md-floating-label">
-                                <label for="qq">QQ</label>
-                                <input type="text" class="form-control" id="qq" name="qq" value="">
+                        </div>
 
-                            </div>
-                            <?php
-                        }
-                        ?>
+                        <div class="form-group form-md-floating-label">
+                            <label for="sfzh">身份证号</label>
+                            <input type="text" class="form-control" id="sfzh" name="sfzh" value="">
+
+                        </div>
+
+                        <div class="form-group form-md-floating-label">
+                            <label for="sfzh">身份证姓名</label>
+                            <input type="text" class="form-control" id="sfzname" name="sfzname" value="">
+
+                        </div>
+
+                        <div class="form-group form-md-floating-label">
+                            <label for="sfzh">身份证有效期</label>
+                            <input type="text" class="form-control" id="sfztime" name="sfztime" value="">
+
+                        </div>
                     </div>
                     <div class="form-actions noborder">
                         <button type="button" class="btn blue tj">提交信息</button>
@@ -197,7 +201,58 @@
 </div>
 <script>
     var doing = false;
+    $("#fronts").change(function () {
+        var formData = new FormData();
+        formData.append('file', $('#fronts')[0].files[0]); // 固定格式
+        formData.append('side','front');
+        $.ajax({
+            url:'http://sg.com/index.php?act=regist&op=upload',
+            data:formData,
+            type:'POST',
+            processData: false,
+            contentType:false,
+            success:function (e) {
+                var a = (JSON.parse(e));
+                console.log(a.msg)
+                if(a.code == 0){
+                    swal('上传成功','图片合格');
+                    $('#front_img').attr('src',a.msg)
+                    $('#front').val(a.msg)
+                    $('#sfzh').val(a.result.公民身份号码.words)
+                    $('#sfzname').val(a.result.姓名.words)
+                }else{
+                    swal(a.msg,'请重新上传')
+                }
 
+            }
+        })
+    });
+
+    $("#backs").change(function () {
+        var formData = new FormData();
+        formData.append('file', $('#backs')[0].files[0]); // 固定格式
+        formData.append('side','back');
+        $.ajax({
+            url:'http://sg.com/index.php?act=regist&op=upload',
+            data:formData,
+            type:'POST',
+            processData: false,
+            contentType:false,
+            success:function (e) {
+                var a = (JSON.parse(e));
+                console.log(a)
+                if(a.code == 0){
+                    swal('上传成功','图片合格');
+                    $('#back_img').attr('src',a.msg)
+                    $('#back').val(a.msg)
+                    var time =  a.result.签发日期.words+'-'+a.result.失效日期.words;
+                    $('#sfztime').val(time)
+                }else{
+                    swal(a.msg,'请重新上传')
+                }
+            }
+        })
+    });
     $('.tj').click(function (event) {
         /*       var hybh= $('#hybh').val();*/
         var yhm = $('#yhm').val();

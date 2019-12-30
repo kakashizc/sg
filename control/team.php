@@ -52,7 +52,8 @@ class teamControl extends BaseMemberControl
         $biz = Model('biz');
         $userInfo = $biz->getOneBizByUid($this->userid);
         if (!$userInfo['uid']) {
-            showMessage('只有服务站能查看注册会员！', '', 'html', 'error');
+            //showMessage('只有服务站能查看注册会员！', '', 'html', 'error');
+            //燕赵
         }
         $id = $_REQUEST['id'] + 0;
         if (C('reg_auto_username')) {
@@ -139,15 +140,11 @@ class teamControl extends BaseMemberControl
 
     public function do_registerOp()
     {
-
         $yhm = trim($_REQUEST['yhm']);
         $dlmm = trim($_REQUEST['dlmm']);
         $jymm = trim($_REQUEST['jymm']);
-        $hyjb = $_REQUEST['hyjb'];
         $group_id = $_REQUEST['group_id'];
         $email = $_REQUEST['email'];
-        //$mbwt = $_REQUEST['mbwt'];
-        //$mbda = $_REQUEST['mbda'];
         $tjr = trim($_REQUEST['tjr']);
         $jdr = trim($_REQUEST['jdr']);
         $scwz = $_REQUEST['scwz'];
@@ -159,6 +156,9 @@ class teamControl extends BaseMemberControl
         $sex = $_REQUEST['sex'];
         $ssname = $_REQUEST['ssname'];
         $users = Model("member");
+        $sfzh = $_REQUEST['sfzh'];
+        $sfzname = $_REQUEST['sfzname'];
+        $sfztime = $_REQUEST['sfztime'];
 
         /**
          * 验证
@@ -199,9 +199,6 @@ class teamControl extends BaseMemberControl
             'login_status' => 0,
             'login_time' => time(),
             'name' => $name,
-            //'problem' => $mbwt,
-            //'answer' => $mbda,
-            'idcard' => $sfzh,
             'address' => $dz,
             'tel' => $tel,
             'qq' => $qq,
@@ -214,7 +211,12 @@ class teamControl extends BaseMemberControl
             'ssname' => $ssname,
             'group_id' => $group_id,
             'rname' => $tjr_info['username'],
-            'lsk' => $lsk
+            'lsk' => $lsk,
+            'front' => $_REQUEST['front'],
+            'back' => $_REQUEST['back'],
+            'idcard' => $sfzh,
+            'sfzname' => $sfzname,
+            'sfztime' => $sfztime,
         );
 
         $res = $users->addMember($data);
@@ -439,7 +441,9 @@ class teamControl extends BaseMemberControl
 
             'u_status' => $status,
 
-            'u_ssuid' => $uid,
+            //'u_ssuid' => $uid,
+
+            'u_rid' => $uid,//后加的 燕赵
 
             'order' => 'id asc',
 
@@ -530,10 +534,10 @@ class teamControl extends BaseMemberControl
             $this->error('该用户不需要激活!');
         }
         if (empty($bizInfo)) {
-            $this->error('请先申请成为服务站！');
+            //$this->error('请先申请成为服务站！');
         }
         if ($userInfo['bao_balance'] < $jihuouserinfo['lsk']) {
-            $this->error('报单需要' . $jihuouserinfo['lsk'] . '报单币,请先转换!');
+            //$this->error('报单需要' . $jihuouserinfo['lsk'] . '报单币,请先转换!');
         }
 
         $Net_info = $this->net_model->getNetByUser($id);

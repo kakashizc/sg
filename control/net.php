@@ -24,7 +24,8 @@ class netControl extends BaseMemberControl
        	$biz = Model('biz');
         $userInfo = $biz->getOneBizByUid($this->userid);
         if (!$userInfo['uid']) {
-            showMessage('只有服务站能查看网络图！', '', 'html', 'error');
+            //燕赵
+            //showMessage('只有服务站能查看网络图！', '', 'html', 'error');
         }
         $r = Model("lay")->CheckLay($this->userid);
 

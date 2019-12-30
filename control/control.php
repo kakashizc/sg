@@ -29,7 +29,8 @@ class Control
         if ($str == '/index.php?act=user&'){ //扫上级二维码进来的,进入注册页面;
             setBnCookie('is_login', '1');
             $pid = $_GET['pid'];
-            @header("location: index.php?act=regist&op=toregist&pid=$pid");
+            $type = $_GET['type'];
+            @header("location: index.php?act=regist&op=toregist&pid=$pid&type=$type");
             exit();
         }
 

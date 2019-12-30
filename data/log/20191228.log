@@ -1,0 +1,93 @@
+[2019-12-28 10:29:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 10:29:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 10:29:36] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2019-12-28 10:39:11] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2019-12-28 10:39:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2019-12-28 10:39:12] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2019-12-28 10:54:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 10:54:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 10:54:29] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2019-12-28 10:54:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 10:54:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 10:54:57] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2019-12-28 11:41:59] /index.php?act=team&op=activation ( act=team&op=activation ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+SELECT count(*) as count FROM `user_group` as `group` left join `user_users` as `users` ON group.group_id=users.group_id  WHERE  users.status = 0 and (users.rid = '13' or users.pid = '13)'
+[2019-12-28 11:41:59] /index.php?act=team&op=activation ( act=team&op=activation ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by id asc limit 0,15' at line 1
+SELECT users.*,group.name as group_name FROM `user_group` as `group` left join `user_users` as `users` ON group.group_id=users.group_id  WHERE  users.status = 0 and (users.rid = '13' or users.pid = '13)' order by id asc limit 0,15
+[2019-12-28 20:13:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 20:13:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 20:13:06] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2019-12-28 20:46:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2019-12-28 20:46:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2019-12-28 20:46:13] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2019-12-28 22:23:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643305' ) LIMIT 1  
+[2019-12-28 22:23:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643305' )
+[2019-12-28 22:23:08] /admin/index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064335' )
+[2019-12-28 22:24:06] /?act=member&op=home ( act=member&op=home ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and date='2019-12-28' LIMIT 1' at line 1
+SELECT * FROM `user_reg_day` WHERE user_id= and date='2019-12-28' LIMIT 1  
+[2019-12-28 22:24:06] /?act=member&op=home ( act=member&op=home ) 
+ERR: Db Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+SELECT sum(b0) as sum FROM `user_bonuslog` WHERE uid =  LIMIT 1  
+[2019-12-28 22:36:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 22:36:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 22:36:46] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )
+[2019-12-28 23:25:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+SELECT * FROM `user_lock` WHERE ( pid = '213070643301' ) LIMIT 1  
+[2019-12-28 23:25:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '213070643301' )
+[2019-12-28 23:25:59] /index.php?act=login&op=login ( act=login&op=login ) 
+ERR: Db Error: Table 'sg.user_lock' doesn't exist
+DELETE  FROM `user_lock` WHERE ( pid = '21307064331' )

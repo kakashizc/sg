@@ -45,9 +45,10 @@ class registControl extends BaseMemberControl{
         $username = $this->users_model->getMemberInfo(array('id'=>$_GET['pid']),'username');
         if($username){
             Tpl::output('tjr',$_GET['pid']);
+            Tpl::output('type',$_GET['type']);
             Tpl::showpage('team.regist');
         }else{
-            $this->error('用户不存在');
+            $this->error('推荐人异常');
         }
 
     }
@@ -58,9 +59,10 @@ class registControl extends BaseMemberControl{
         $arr = array();
         $file = $_FILES['file'];
         $side = $_POST['side'];//身份证正反面
-        $allowedExts = array("jpeg", "jpg", "png");
+        $allowedExts = array("jpeg", "jpg", "png","JPG","PNG","JPEG");
         $temp = explode(".", $_FILES["file"]["name"]);
         $extension = end($temp);// 获取文件后缀名
+        
         if ( ($_FILES["file"]["type"] == "image/jpeg" || $_FILES["file"]["type"] == "image/jpg" || $_FILES["file"]["type"] == "image/png") && ($_FILES["file"]["size"] < 10480000) && in_array($extension, $allowedExts))
         {
             $path = 'data/upload/indentity/';
@@ -204,7 +206,7 @@ class registControl extends BaseMemberControl{
         $ssname = $_REQUEST['ssname'];
         $users = Model("member");
         $scwz = $_REQUEST['scwz'];// 接点位置, 1-左, 2-右
-        $scwz = 2;
+//        $scwz = 2;
         //这里的$_REQUEST['jdr'] , 其实就是二维码中的推荐人id
         $jdr = $this->jdr($scwz,$_REQUEST['tjr']);//根据推荐人 和 市场位置左右, 去寻找上级接点人的名字
         $scwz = 1;
@@ -262,6 +264,8 @@ class registControl extends BaseMemberControl{
             'group_id' => $group_id,
             'rname' => $tjr_info['username'],
             'lsk' => $lsk,
+            'front' => $_REQUEST['front'],
+            'back' => $_REQUEST['back']
         );
 
         $res = $users->addMember($data);

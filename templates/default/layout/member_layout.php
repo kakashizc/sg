@@ -173,13 +173,13 @@
                                 <span class="badge badge-danger"></span>
                             </a>
                         </li>
-                        <li class="nav-item start <?php echo $output['Zl_UPLevel_dian']; ?>">
-                            <a href="index.php?act=user&op=UPLevel" class="nav-link ">
-                                <i class="icon-graph"></i>
-                                <span class="title">提升等级</span>
-                                <span class="badge badge-danger"></span>
-                            </a>
-                        </li>
+<!--                        <li class="nav-item start --><?php //echo $output['Zl_UPLevel_dian']; ?><!--">-->
+<!--                            <a href="index.php?act=user&op=UPLevel" class="nav-link ">-->
+<!--                                <i class="icon-graph"></i>-->
+<!--                                <span class="title">提升等级</span>-->
+<!--                                <span class="badge badge-danger"></span>-->
+<!--                            </a>-->
+<!--                        </li>-->
                     </ul>
                 </li>
                 <li class="nav-item start <?php echo $output['Team_index_active']; ?>">
@@ -189,12 +189,12 @@
                         <span class="arrow"></span>
                     </a>
                     <ul class="sub-menu">
-                        <li class="nav-item start <?php echo $output['Team_sctj_dian']; ?>">
-                            <a href="index.php?act=team&op=sctj" class="nav-link ">
-                                <i class="icon-bar-chart"></i>
-                                <span class="title">市场统计</span>
-                            </a>
-                        </li>
+<!--                        <li class="nav-item start --><?php //echo $output['Team_sctj_dian']; ?><!--">-->
+<!--                            <a href="index.php?act=team&op=sctj" class="nav-link ">-->
+<!--                                <i class="icon-bar-chart"></i>-->
+<!--                                <span class="title">市场统计</span>-->
+<!--                            </a>-->
+<!--                        </li>-->
                         <li class="nav-item start <?php echo $output['Team_register_dian']; ?>">
                             <a href="index.php?act=team&op=register" class="nav-link ">
                                 <i class="icon-bar-chart"></i>
@@ -204,16 +204,16 @@
                         <li class="nav-item start <?php echo $output['Team_zhituiList_dian']; ?>">
                             <a href="index.php?act=team&op=zhituiList" class="nav-link ">
                                 <i class="icon-share"></i>
-                                <span class="title">直推列表</span>
+                                <span class="title">我的直推</span>
                                 <span class="badge badge-success"></span>
                             </a>
                         </li>
-                        <li class="nav-item start <?php echo $output['Team_ss_dian']; ?>">
-                            <a href="index.php?act=team&op=ServiceStation" class="nav-link ">
-                                <i class="icon-briefcase"></i>
-                                <span class="title">报单中心</span>
-                            </a>
-                        </li>
+<!--                        <li class="nav-item start --><?php //echo $output['Team_ss_dian']; ?><!--">-->
+<!--                            <a href="index.php?act=team&op=ServiceStation" class="nav-link ">-->
+<!--                                <i class="icon-briefcase"></i>-->
+<!--                                <span class="title">报单中心</span>-->
+<!--                            </a>-->
+<!--                        </li>-->
                         <li class="nav-item start <?php echo $output['Team_activation_dian']; ?>">
                             <a href="index.php?act=team&op=activation" class="nav-link ">
                                 <i class="icon-bulb"></i>
@@ -239,9 +239,9 @@
                     </ul>
                 </li>
                 <li class="nav-item start <?php echo $output['Shop_index_active']; ?>">
-                    <a href="javascript:;" class="nav-link nav-toggle">
-                        <i class="fa fa-truck"></i> <span class="title">购物中心</span> <span class="arrow"></span>
-                    </a>
+<!--                    <a href="javascript:;" class="nav-link nav-toggle">-->
+<!--                        <i class="fa fa-truck"></i> <span class="title">购物中心</span> <span class="arrow"></span>-->
+<!--                    </a>-->
                     <ul class="sub-menu">
                         <li class="nav-item start hesuan <?php echo $output['User_shop_dian']; ?>"><a
                                 href="index.php?act=goods&op=shop" class="nav-link "> <i class="icon-bar-chart"></i>
@@ -255,11 +255,11 @@
                     </ul>
                 </li>
                 <li class="nav-item start <?php echo $output['Money_index_active']; ?>">
-                    <a href="javascript:;" class="nav-link nav-toggle">
-                        <i class="fa fa-dollar"></i>
-                        <span class="title">财务中心</span>
-                        <span class="arrow"></span>
-                    </a>
+<!--                    <a href="javascript:;" class="nav-link nav-toggle">-->
+<!--                        <i class="fa fa-dollar"></i>-->
+<!--                        <span class="title">财务中心</span>-->
+<!--                        <span class="arrow"></span>-->
+<!--                    </a>-->
                     <ul class="sub-menu">
                         <li class="nav-item start <?php echo $output['Money_Money_dian']; ?>">
                             <a href="index.php?act=fin&op=change" class="nav-link ">
@@ -312,11 +312,11 @@
                     </ul>
                 </li>
                 <li class="nav-item start <?php echo $output['Message_index_active']; ?>">
-                    <a href="javascript:;" class="nav-link nav-toggle ">
-                        <i class="icon-envelope"></i>
-                        <span class="title">站内信</span>
-                        <span class="arrow"></span>
-                    </a>
+<!--                    <a href="javascript:;" class="nav-link nav-toggle ">-->
+<!--                        <i class="icon-envelope"></i>-->
+<!--                        <span class="title">站内信</span>-->
+<!--                        <span class="arrow"></span>-->
+<!--                    </a>-->
                     <ul class="sub-menu">
                         <li class="nav-item start <?php echo $output['Message_index_selected']; ?>">
                             <a href="index.php?act=article&op=send" class="nav-link ">

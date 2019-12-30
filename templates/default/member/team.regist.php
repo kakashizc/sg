@@ -97,11 +97,18 @@
                         <br>
 
                         <div class="form-group form-md-floating-label">
+
                             <label for="scwz"><span style="color: red">*</span>位置</label>
                             <select class="form-control edited" id="scwz" name="scwz">
-                                <option value="1" selected="selected">左
-                                </option>
+                                <?php if($output['type'] == 1){ ?>
+                                    <option value="1" selected="selected">左
+                                    </option>
+                                <?php } else{?>
+                                    <option value="2" selected="selected">右
+                                    </option>
+                                <?php }?>
                             </select>
+<!--                            <input type="hidden" name="scwz" id="scwz" value="--><?php //echo $output['type']  ?><!--">-->
                         </div>
 
 
@@ -115,8 +122,8 @@
 
                             <div class="form-group form-md-floating-label">
                                 <label for="sfzh">身份证正面</label>
-                                <input type="file" class="form-control" id="fronts" name="indentity_front">
-                                <input type="hidden" id="front" value="">
+                                <input type="file" class="form-control" id="fronts" name="indentity_front" accept="image/*">
+                                <input type="hidden" id="front" name="front" value="">
                             </div>
                             <div class="form-group">
 
@@ -131,8 +138,8 @@
 
                             <div class="form-group form-md-floating-label">
                                 <label for="sfzh">身份证反面</label>
-                                <input type="file" class="form-control" id="backs" name="indentity_back">
-                                <input type="hidden" id="back" value="">
+                                <input type="file" class="form-control" id="backs" name="indentity_back" accept="image/*">
+                                <input type="hidden" id="back" name="back" value="">
                             </div>
                             <div class="form-group">
 
@@ -176,18 +183,19 @@
 <script>
     var doing = false;
     $("#fronts").change(function () {
+
         var formData = new FormData();
         formData.append('file', $('#fronts')[0].files[0]); // 固定格式
         formData.append('side','front');
         $.ajax({
-            url:'http://sg.com/index.php?act=regist&op=upload',
+            url:'index.php?act=regist&op=upload',
             data:formData,
             type:'POST',
             processData: false,
             contentType:false,
             success:function (e) {
                 var a = (JSON.parse(e));
-
+                console.log(a.msg)
                 if(a.code == 0){
                     swal('上传成功','图片合格');
                     $('#front_img').attr('src',a.msg)
@@ -207,7 +215,7 @@
         formData.append('file', $('#backs')[0].files[0]); // 固定格式
         formData.append('side','back');
         $.ajax({
-            url:'http://sg.com/index.php?act=regist&op=upload',
+            url:'index.php?act=regist&op=upload',
             data:formData,
             type:'POST',
             processData: false,

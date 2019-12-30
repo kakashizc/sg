@@ -36,9 +36,10 @@ class userControl extends BaseMemberControl
     {
         require_once 'phpqrcode/phpqrcode.php';
         $uid = $this->userid;
+        $type = $_GET['type'];//生成二维码的区, 1-左区二维码, 2-右区二维码
         //找到当前用户的最终父级, 既上级 pid=0的那个用户
         $top_uid = $this->getTopParent($uid);
-        $url="http://".$_SERVER['SERVER_NAME']."/index.php?act=user&op=bindPid&pid=$top_uid" ;//将url地址写好
+        $url="http://".$_SERVER['SERVER_NAME']."/index.php?act=user&op=bindPid&pid=$top_uid&type=$type";//将url地址写好
         $errorCorrectionLevel = 'L'; //容错级别
         $i=320;
         $j = floor($i/37*100)/100 + 0.01;
@@ -48,7 +49,12 @@ class userControl extends BaseMemberControl
         $filename = 'data/'.'upload/'.mt_rand(1,100).'-'.$uid.'.png';//生成二维码的图片名称，以及保存地址
         $QRcode=new \QRcode();//实例化对象
         $QRcode::png($url,$filename , $errorCorrectionLevel, $matrixPointSize, 2);
-        $update = $this->user_model->update_qrcode(array('id'=>$uid),array('qrcode'=>$filename));
+        if($type == 1){
+            $code = array('qrcode_left'=>$filename);
+        }else if($type == 2){
+            $code = array('qrcode_right'=>$filename);
+        }
+        $update = $this->user_model->update_qrcode(array('id'=>$uid),$code);
         showMessage('成功','index.php?act=user&op=view');
     }
 

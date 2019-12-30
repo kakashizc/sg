@@ -59,7 +59,7 @@ class groupModel extends Model
      */
     private function _condition($condition)
     {
-        $condition_str = '';
+         $condition_str = '';
 
         if ($condition['group_id'] != '') {
             $condition_str .= " and group.group_id = '" . $condition['group_id'] . "'";
@@ -80,6 +80,13 @@ class groupModel extends Model
         }
         if ($condition['u_ssuid'] != '') {
             $condition_str .= " and users.ssuid = '" . $condition['u_ssuid'] . "'";
+        }
+        //燕赵。下面是我们后期优化的，意思是，获取我推荐的下级的人或者我的节点下级的人
+        if ($condition['u_rid'] != '') {
+            $condition_str .= " and (users.rid = '" . $condition['u_rid'] . "'";
+        }
+        if ($condition['u_rid'] != '') {
+            $condition_str .= " or users.pid = '" . $condition['u_rid'] . "')";
         }
         return $condition_str;
     }

@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="675448f6-6a83-4090-99e6-551f7a4d1c77" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/modules/member/control/member.php" afterPath="$PROJECT_DIR$/admin/modules/member/control/member.php" />
-      <change beforePath="$PROJECT_DIR$/control/regist.php" afterPath="$PROJECT_DIR$/control/regist.php" />
-      <change beforePath="$PROJECT_DIR$/control/team.php" afterPath="$PROJECT_DIR$/control/team.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/1.php" afterPath="$PROJECT_DIR$/data/cache/net/1.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/10.php" afterPath="$PROJECT_DIR$/data/cache/net/10.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/11.php" afterPath="$PROJECT_DIR$/data/cache/net/11.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/13.php" afterPath="$PROJECT_DIR$/data/cache/net/13.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/3.php" afterPath="$PROJECT_DIR$/data/cache/net/3.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/4.php" afterPath="$PROJECT_DIR$/data/cache/net/4.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/6.php" afterPath="$PROJECT_DIR$/data/cache/net/6.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/7.php" afterPath="$PROJECT_DIR$/data/cache/net/7.php" />
-      <change beforePath="$PROJECT_DIR$/data/cache/net/8.php" afterPath="$PROJECT_DIR$/data/cache/net/8.php" />
-      <change beforePath="$PROJECT_DIR$/data/model/member.model.php" afterPath="$PROJECT_DIR$/data/model/member.model.php" />
-      <change beforePath="$PROJECT_DIR$/data/model/net.model.php" afterPath="$PROJECT_DIR$/data/model/net.model.php" />
-      <change beforePath="$PROJECT_DIR$/data/session/sess_8rrn9078onntqm6o7dfq51uns5" afterPath="$PROJECT_DIR$/data/session/sess_8rrn9078onntqm6o7dfq51uns5" />
-      <change beforePath="$PROJECT_DIR$/templates/default/member/team.regist.php" afterPath="$PROJECT_DIR$/templates/default/member/team.regist.php" />
-    </list>
+    <list default="true" id="675448f6-6a83-4090-99e6-551f7a4d1c77" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +54,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -267,17 +250,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577355373797</updated>
-      <workItem from="1577355375240" duration="25089000" />
+      <workItem from="1577355375240" duration="25348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25089000" />
+    <option name="totallyTimeSpent" value="25348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -556,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>

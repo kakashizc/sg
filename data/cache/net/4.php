@@ -11,7 +11,7 @@
 <td>0</td>
 </tr>
 <tr>
-<td>6</td>
+<td>0</td>
 <td>增</td>
 <td>0</td>
 </tr>
@@ -30,9 +30,9 @@
 <td>4</td>
 </tr>
 <tr>
-<td>1</td>
+<td>0</td>
 <td>增</td>
-<td>4</td>
+<td>0</td>
 </tr>
 </table>
 <ul class="ceng_2">
@@ -71,9 +71,9 @@
 <td>2</td>
 </tr>
 <tr>
-<td>1</td>
+<td>0</td>
 <td>增</td>
-<td>2</td>
+<td>0</td>
 </tr>
 </table>
 <ul class="ceng_2">

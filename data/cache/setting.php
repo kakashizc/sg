@@ -53,7 +53,7 @@
   'signin_isuse' => '1',
   'site_email' => 'abc@shopwwi.com',
   'site_logo' => 'logo.png',
-  'site_name' => '欢迎登录银嘉',
+  'site_name' => '欢迎登录',
   'site_phone' => '23456789,88997788',
   'site_status' => '1',
   'time_zone' => 'Asia/Shanghai',

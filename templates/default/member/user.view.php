@@ -127,20 +127,35 @@
         </div>
 
         <div class="form-group">
-            <label class="col-sm-2 control-label">二维码：
+            <label class="col-sm-2 control-label">左区二维码：
             </label>
-            <?php if ( $output['info']['qrcode'] ) { ?>
+            <?php if ( $output['info']['qrcode_left'] ) { ?>
                 <div class="col-sm-10">
                     <p class="form-control-static">
-                        <img src="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/'.$output['info']['qrcode']; ?>" alt="">
+                        <img src="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/'.$output['info']['qrcode_left']; ?>" alt="">
                     </p>
                 </div>
             <?php } else { ?>
                 <div class="col-sm-10">
-                    <p class="form-control-static"><a href="index.php?act=user&op=makeQrcode">点击生成我的推荐二维码</a></p>
+                    <p class="form-control-static"><a href="index.php?act=user&op=makeQrcode&type=1">点击生成我的左区二维码</a></p>
                 </div>
             <?php } ?>
+        </div>
 
+        <div class="form-group">
+            <label class="col-sm-2 control-label">右区二维码：
+            </label>
+            <?php if ( $output['info']['qrcode_right'] ) { ?>
+                <div class="col-sm-10">
+                    <p class="form-control-static">
+                        <img src="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/'.$output['info']['qrcode_right']; ?>" alt="">
+                    </p>
+                </div>
+            <?php } else { ?>
+                <div class="col-sm-10">
+                    <p class="form-control-static"><a href="index.php?act=user&op=makeQrcode&type=2">点击生成我的右区二维码</a></p>
+                </div>
+            <?php } ?>
         </div>
         <!--      <div class="form-group">
        <label class="col-sm-2 control-label">注册币：
